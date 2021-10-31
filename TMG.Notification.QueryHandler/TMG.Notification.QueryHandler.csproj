@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMG.Notification.Data\TMG.Notification.Data.csproj" />
+    <ProjectReference Include="..\TMG.Notification.Query\TMG.Notification.Query.csproj" />
+  </ItemGroup>
+
+</Project>

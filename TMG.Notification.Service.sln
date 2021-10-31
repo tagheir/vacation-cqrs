@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMG.Notification.API", "TMG.Notification.API\TMG.Notification.API.csproj", "{684BCDD3-8827-4770-BD2F-1A3A59EA549B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMG.Notification.Data", "TMG.Notification.Data\TMG.Notification.Data.csproj", "{E0DC63C5-F920-43CA-B59B-71CE23B488EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMG.Notification.Command", "TMG.Notification.Command\TMG.Notification.Command.csproj", "{6543222D-C47B-427A-8D46-3B9321B8A4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMG.Notification.CommandHandler", "TMG.Notification.CommandHandler\TMG.Notification.CommandHandler.csproj", "{C51D727F-F1A6-4B24-8070-524EAE8450E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMG.Notification.Query", "TMG.Notification.Query\TMG.Notification.Query.csproj", "{A03D07A0-EB26-487E-AC03-4F326061ACF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMG.Notification.QueryHandler", "TMG.Notification.QueryHandler\TMG.Notification.QueryHandler.csproj", "{390C541C-A139-454C-AA66-5F8C229216CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684BCDD3-8827-4770-BD2F-1A3A59EA549B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684BCDD3-8827-4770-BD2F-1A3A59EA549B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684BCDD3-8827-4770-BD2F-1A3A59EA549B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684BCDD3-8827-4770-BD2F-1A3A59EA549B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DC63C5-F920-43CA-B59B-71CE23B488EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DC63C5-F920-43CA-B59B-71CE23B488EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DC63C5-F920-43CA-B59B-71CE23B488EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DC63C5-F920-43CA-B59B-71CE23B488EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6543222D-C47B-427A-8D46-3B9321B8A4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6543222D-C47B-427A-8D46-3B9321B8A4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6543222D-C47B-427A-8D46-3B9321B8A4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6543222D-C47B-427A-8D46-3B9321B8A4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51D727F-F1A6-4B24-8070-524EAE8450E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51D727F-F1A6-4B24-8070-524EAE8450E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51D727F-F1A6-4B24-8070-524EAE8450E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51D727F-F1A6-4B24-8070-524EAE8450E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03D07A0-EB26-487E-AC03-4F326061ACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03D07A0-EB26-487E-AC03-4F326061ACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03D07A0-EB26-487E-AC03-4F326061ACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03D07A0-EB26-487E-AC03-4F326061ACF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390C541C-A139-454C-AA66-5F8C229216CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390C541C-A139-454C-AA66-5F8C229216CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390C541C-A139-454C-AA66-5F8C229216CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390C541C-A139-454C-AA66-5F8C229216CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06C37E3-4BA1-4BCB-AAB4-D44F22E221E2}
+	EndGlobalSection
+EndGlobal
