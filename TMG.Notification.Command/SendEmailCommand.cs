@@ -14,7 +14,9 @@ namespace TMG.Notification.Command
     public List<EmailAddress> CcEmailIds { get; init; }
     public List<EmailAddress> BccEmailIds { get; init; }
     public JObject DynamicContent { get; init; }
+    public string HtmlContent { get; init; }
     public string TemplateId { get; init; }
+    public string Subject { get; init; }
     public IEnumerable<Attachment> Attachments { get; init; }
   }
 }
